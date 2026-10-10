@@ -1,13 +1,13 @@
 import "./Hero.css";
 
 /* creamos la función Hero. Con un destructuring obtenemos las propiedades, y 
-se las pasamos a los componentes.*/
+se las pasamos a los componentes como props.*/
 
-function Hero({ titulo, destacado, descripcion }) {
+function Hero({ titulo, destacado, descripcion, foto, altFoto }) {
   return (
     <section className="hero" id="inicio">
       <div className="hero__tarjeta">
-        <div className="hero__foto">foto</div>
+        <img className="hero__foto" src={foto} alt={altFoto} />
         <div className="hero__texto">
           <h1 className="hero__titulo">
             {titulo}
