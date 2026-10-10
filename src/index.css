@@ -39,6 +39,7 @@
   --color-acento: #d3c973;
   --color-fondo-claro: #9f86co;
   --color-texto-claro: #f3f2f7;
+  --color-tarjeta: #29203e;
 
   --fuente-titulos: "Cabinet Grotesk", system-ui, sans-serif;
   --fuente-texto: "Inter", system-ui, sans-serif;
@@ -52,7 +53,7 @@
 
 body {
   font-family: var(--fuente-texto);
-  background: var(--color-fondo-claro);
+  background: var(--color-fondo-oscuro);
 }
 
 h1,
