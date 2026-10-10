@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background: var(--color-primario);
+}
+
+.navbar__logo {
+  height: 48px;
+}
+
+.navbar__lista {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.navbar a {
+  color: var(--color-texto-claro);
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.navbar a:hover {
+  color: var(--color-acento);
+}
