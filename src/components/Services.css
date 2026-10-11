@@ -1,0 +1,19 @@
+.services {
+  padding: 4rem 2rem;
+  background: var(--color-fondo-claro);
+}
+
+.services__titulo {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  color: var(--color-primario);
+}
+
+.services__grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
