@@ -51,14 +51,17 @@
   transition: opacity 0.3s ease;
 }
 
-.service-card:hover .service-card__velo {
+.service-card:hover .service-card__velo,
+.service-card:focus-visible .service-card__velo {
   opacity: 0.92;
 }
 
-.service-card:hover .service-card__titulo {
+.service-card:hover .service-card__titulo,
+.servica-card:focus-visible .service-card__titulo {
   opacity: 0;
 }
 
-.service-card:hover .service-card__detalle {
+.service-card:hover .service-card__detalle,
+.service-card:focus-visible .service-card__detalle {
   opacity: 1;
 }
