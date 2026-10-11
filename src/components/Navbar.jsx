@@ -17,11 +17,13 @@ El map recorre el array y define los items.*/
 function Navbar() {
   return (
     <header className="navbar">
-      <img
-        src={logo}
-        alt="logotipo de Galaso Marketing"
-        className="navbar__logo"
-      />
+      <a href="inicio" className="navbar__inicio">
+        <img
+          src={logo}
+          alt="logotipo de Galaso Marketing, ir al inicio"
+          className="navbar__logo"
+        />
+      </a>
       <nav>
         <ul className="navbar__lista">
           {enlaces.map((enlace) => (

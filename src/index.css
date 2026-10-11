@@ -37,7 +37,7 @@
   --color-primario: #413763;
   --color-fondo-oscuro: #110e1b;
   --color-acento: #d3c973;
-  --color-fondo-claro: #9f86co;
+  --color-fondo-claro: #c9bcdc;
   --color-texto-claro: #f3f2f7;
   --color-tarjeta: #29203e;
 
@@ -61,4 +61,9 @@ h2,
 h3 {
   font-family: var(--fuente-titulos);
   font-weight: 800;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
