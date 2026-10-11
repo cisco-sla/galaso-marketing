@@ -22,31 +22,46 @@ export const servicios = [
   {
     id: "branding",
     titulo: "Branding e Identidad visual",
-    descripcion: ["Descripción pendiente.", "Bajada pendiente"],
+    descripcion: [
+      "Diseño de logotipo, paleta de colores, tipografías y lineamientos para que tu marca tenga una imagen propia y coherente.",
+      "Una identidad sólida te hace reconocible, transmite confianza y te diferencia de la competencia.",
+    ],
     imagen: imgBranding,
   },
   {
     id: "community",
     titulo: "Community management",
-    descripcion: ["Descripción pendiente.", "Bajada pendiente"],
+    descripcion: [
+      "Creación de contenido, publicaciones, gestión de comentarios y mensajes, e informes de métricas de tus redes sociales.",
+      "Una comunidad activa y bien atendida construye vínculos con tus clientes y genera oportunidades de venta.",
+    ],
     imagen: imgCm,
   },
   {
     id: "web",
     titulo: "Página Web y tienda online",
-    descripcion: ["Descripción pendiente.", "Bajada pendiente"],
+    descripcion: [
+      "Diseño y desarrollo de sitios web y tiendas online rápidos, adaptados a celulares y con la identidad de tu marca.",
+      "Es tu negocio abierto las 24 horas: un lugar propio donde te encuentran, conocen tu propuesta y pueden comprarte.",
+    ],
     imagen: imgWeb,
   },
   {
     id: "publicidad",
     titulo: "Publicidad digital",
-    descripcion: ["Descripción pendiente.", "Bajada pendiente"],
+    descripcion: [
+      "Diseño y gestión de campañas en redes sociales y buscadores, con segmentación por intereses, ubicación y comportamiento.",
+      "Permite llegar a las personas indicadas, medir cada resultado y optimizar la inversión para conseguir más clientes.",
+    ],
     imagen: imgPublicidad,
   },
   {
     id: "capacitaciones",
     titulo: "Capacitaciones",
-    descripcion: ["Descripción pendiente.", "Bajada pendiente"],
+    descripcion: [
+      "Talleres y capacitaciones prácticas sobre marketing digital, redes sociales y comunicación de marca para emprendedores y equipos.",
+      "Aprender estas herramientas da autonomía para gestionar tu propia marca y tomar mejores decisiones.",
+    ],
     imagen: imgCapacitaciones,
   },
 ];
