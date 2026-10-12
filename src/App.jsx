@@ -6,6 +6,7 @@ import Plans from "./components/Plans";
 import Portfolio from "./components/Portfolio";
 import Articles from "./components/Articles";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import fotoPerfil from "./assets/fran_mkt2.webp";
 
 /*creamos la función para que devuelva los componentes que necesitamos. Al Hero, le pasamos las props (titulo, destacado, etc.)
@@ -28,6 +29,7 @@ function App() {
       <Portfolio />
       <Articles />
       <Contact />
+      <Footer />
     </>
   );
 }
