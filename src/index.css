@@ -40,6 +40,9 @@
   --color-fondo-claro: #c9bcdc;
   --color-texto-claro: #f3f2f7;
   --color-tarjeta: #29203e;
+  --color-lila: #413763;
+  --color-boton: #5f5490;
+  --color-boton-hover: #9f86c0;
 
   --fuente-titulos: "Cabinet Grotesk", system-ui, sans-serif;
   --fuente-texto: "Inter", system-ui, sans-serif;
