@@ -11,7 +11,7 @@ function PlanCard({ plan, incluye, fondo }) {
 
   return (
     <article className="plan-card">
-      <img className="plan-2card__imagen" src={fondo} alt="" />
+      <img className="plan-card__imagen" src={fondo} alt="" />
       <div className="plan-card__velo"></div>
       <div className="plan-card__contenido">
         <h3 className="plan-card__nombre">{plan.nombre}</h3>

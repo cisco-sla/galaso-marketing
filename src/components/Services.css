@@ -1,13 +1,13 @@
 .services {
   padding: 4rem 2rem;
-  background: var(--color-fondo-claro);
+  background: var(--color-primario);
 }
 
 .services__titulo {
   margin-bottom: 3rem;
   font-size: 4rem;
   text-align: center;
-  color: var(--color-primario);
+  color: var(--color-oscuro);
 }
 
 .services__grilla {
