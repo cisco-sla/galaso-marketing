@@ -23,7 +23,7 @@
   border: 2px solid var(--color-primario);
   border-radius: 999px;
   background: transparent;
-  color: var(--color-primario);
+  color: var(--color-texto-claro);
   font-family: var(--fuente-titulos);
   font-size: 1.2rem;
   font-weight: 700;
@@ -34,12 +34,12 @@
 }
 
 .portfolio__filtro:hover {
-  background: var(--color-lila);
+  background: var(--color-acento);
 }
 
 .portfolio__filtro--activo,
 .portfolio__filtro--activo:hover {
-  background: var(--color-primario);
+  background: var(--color-fondo-oscuro);
   color: var(--color-texto-claro);
 }
 

@@ -66,5 +66,5 @@
 
 .plan-card__precio:hover,
 .plan-card__precio:focus-visible {
-  background: var(--color-lila);
+  background: var(--color-acento);
 }
