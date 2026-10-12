@@ -43,6 +43,8 @@
   --color-lila: #413763;
   --color-boton: #5f5490;
   --color-boton-hover: #9f86c0;
+  --color-error: #ffb4b4;
+  --color-error-borde: #e5383b;
 
   --fuente-titulos: "Cabinet Grotesk", system-ui, sans-serif;
   --fuente-texto: "Inter", system-ui, sans-serif;
