@@ -17,7 +17,7 @@ El map recorre el array y define los items de la lista.*/
 function Navbar() {
   return (
     <header className="navbar">
-      <a href="inicio" className="navbar__inicio">
+      <a href="#inicio" className="navbar__inicio">
         <img
           src={logo}
           alt="logotipo de Galaso Marketing, ir al inicio"
