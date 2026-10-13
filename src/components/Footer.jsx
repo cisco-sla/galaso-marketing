@@ -1,6 +1,12 @@
 import "./Footer.css";
-import logo from "../assets/4GoldenSand_AInvisible.svg";
+import logo from "../assets/7Original_BAmethystSmoke.png";
 import { datosContacto, redesSociales } from "../data/enlaces";
+
+/*En el footer usamos la función para obtener la fecha actual
+para que se actualice solo sin tener que harcodear la fecha en
+cada año. 
+Utiliza los datos de contacto y redes sociales del archivo enlaces.js
+*/
 
 function Footer() {
   const anio = new Date().getFullYear();

@@ -2,6 +2,10 @@ import { useState } from "react";
 import "./Contact.css";
 import { enviarConsulta } from "../services/enviarConsulta";
 
+/*Archivo de la sección de Contacto. Importa los datos de la funcion de enviarConsulta
+(enviarConsulta.js) y crea la variable de datos iniciales, y los mensajes de error 
+a mostrar segun se den ciertas condiciones que se ponen para validar los datos. 
+*/
 const datosIniciales = {
   nombre: "",
   email: "",
@@ -24,10 +28,22 @@ function validar(datos) {
   return errores;
 }
 
+/*
+Función para declarar las 3 constantes con useState: 
+*datos (lo que el visitante escribe en todos los campos), 
+*errores: la validadcion de errores de la funcion anterior,
+*estado: estado del envio (enviando, exito, etc)  
+*/
 function Contact() {
   const [datos, setDatos] = useState(datosIniciales);
   const [errores, setErrores] = useState({});
   const [estado, setEstado] = useState("inactivo");
+
+  /*
+Funciónes para los eventos (cambios y envio de mensaje) 
+Usamos desestructuración de las propiedades y el spread para copiar las propiedades 
+en un objeto nuevo y no modificar el estado original. 
+*/
 
   function manejarCambio(evento) {
     const { name, value, type, checked } = evento.target;
@@ -35,7 +51,12 @@ function Contact() {
   }
 
   async function manejarEnvio(evento) {
-    evento.preventDefault();
+    evento.preventDefault(); //previene recargar la página
+
+    /*Se validan los datos. Si hay errrores corta la ejecucion. Si no
+hace la peticion de enviar los datos al server. Con un try/catch seteamos 
+que si tiene exito, actualiza datosIniciales con el state "exito". Caso cantrario
+captura el el error y setea el estado en "error.*/
 
     const erroresEncontrados = validar(datos);
     setErrores(erroresEncontrados);
@@ -52,6 +73,9 @@ function Contact() {
       setEstado("error");
     }
   }
+
+  /*Aca se define el formulario, con sus campos y el comportamiento, 
+ej. onSubmit: accion al presionar el boton > envía el mensaje. */
 
   return (
     <section className="contact" id="contacto">

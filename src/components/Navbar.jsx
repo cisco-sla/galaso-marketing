@@ -1,7 +1,7 @@
 import "./Navbar.css";
-import logo from "../assets/4GoldenSand_AInvisible.svg";
+import logo from "../assets/7Original_BAmethystSmoke.webp";
 
-//creamos un Array con el menú.
+//creamos un Array con los objetos del menú, cada uno con 2 propiedades.
 const enlaces = [
   { texto: "Sobre Mí", destino: "#sobre-mi" },
   { texto: "Mis servicios", destino: "#servicios" },
@@ -10,9 +10,9 @@ const enlaces = [
   { texto: "Contacto", destino: "#contacto" },
 ];
 
-/* creamos el componente, que retorne la cabecera,
-con el logotipo, texto alternativo, y la funcion de navegación del menú.
-El map recorre el array y define los items.*/
+/* creamos la función, que retorne la cabecera, con el logotipo (con 
+texto alternativo y enlace al inicio), y la funcion de navegación del menú.
+El map recorre el array y define los items de la lista.*/
 
 function Navbar() {
   return (

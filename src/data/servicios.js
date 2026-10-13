@@ -5,10 +5,16 @@ import imgInvestigacion from "../assets/servicios/investigacion_mercados.webp";
 import imgPublicidad from "../assets/servicios/publicidaddigital.webp";
 import imgWeb from "../assets/servicios/web.webp";
 
-/* Creo una constante con todos los servicios como objetos con sus propiedades.
+/* Creo y exporto una constante con todos los servicios como objetos con sus propiedades.
 A su vez la propiedad descripción es un Array de textos que el archivo de ServiceCard lo toma indexado con un map. 
-Despues en el archivo de la seccion Servicios.js toma las tarjetas de servicios.  
+Luego el Services.jsx toma de las tarjetas de servicios. El flujo sería:
+servicios.js
+|
+ServiceCard.jsx
+|
+Services.jsx
 */
+
 export const servicios = [
   {
     id: "investigacion",

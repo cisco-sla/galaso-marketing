@@ -1,5 +1,11 @@
-/* Cada plan es un objeto. Se agrega una variable mas con las propiedades que son  compartidas por todos los planes.
+/* Cada plan es un objeto. Se agrega una variable mas con las 
+propiedades que son  compartidas por todos los planes. La lógica es la 
+misma que con la sección Servicios. Este archivo contiene las variables y 
+las exporta. El archivo PlanCard.jsx es la estructura rehutilizable para 
+mostrar la información. Y todo eso llega al Plans.jsx que se encarga de
+moldear todo.  
  */
+
 export const planes = [
   {
     id: "presencia",

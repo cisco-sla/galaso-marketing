@@ -2,6 +2,11 @@ import "./Articles.css";
 import iconoWhatsapp from "../assets/logos-rrss/WhatsApp_GoldenSand.png";
 import { canalWhatsapp } from "../data/enlaces";
 
+/*Sección simple, donde se arma el bloque con con un botón que 
+lleva a la dirección del canal de whatsapp declarado en el archivo enlaces.js 
+en una pestaña nueva (target _blank) y parrafos referidos. 
+*/
+
 function Articles() {
   return (
     <section className="articles" id="articulos">

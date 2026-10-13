@@ -1,3 +1,10 @@
+/* Este archivo debe modificarse cuando se disponga de la información 
+relacionada a trabajos realizados. 
+Se pasan 2 variables: categorias: un Array para el filtro de la página) y 
+proyectos propiamente dicha: un Array de objetos. Cuando haya imágenes
+se agrega una prop de img.  
+*/
+
 export const categorias = ["Todos", "Branding", "Redes Sociales", "Web"];
 
 export const proyectos = [

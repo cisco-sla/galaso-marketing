@@ -1,5 +1,10 @@
 import "./ProjectCard.css";
 
+/* Función para crear la estructura de las tarjetas. Idem a Planes y
+y Servicios. Recibe props, desestructura y Portfolio usa el esqueleto 
+para llenarlo con los datos de proyectos.js
+*/
+
 function ProjectCard({ titulo, categoria, descripcion }) {
   return (
     <article className="project-card">

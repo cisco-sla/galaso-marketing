@@ -1,7 +1,8 @@
 import "./ServiceCard.css";
 
-/*Creo la función ServiceCard que luego reutilizaré. El componente ServiceCard recibe 3 props: 
-titulo, descripcion e imagen y los desestructura. Esto es la estructura para todas las tarjetas. 
+/*Creo 1 función ServiceCard que luego reutilizaré en cada tarjeta que necesite. 
+El componente ServiceCard es una plantilla que recibe 3 props: titulo, descripcion e imagen y 
+los desestructura. Esto es la estructura para todas las tarjetas. 
 */
 
 function ServiceCard({ titulo, descripcion, imagen }) {

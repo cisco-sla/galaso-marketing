@@ -1,13 +1,13 @@
 .contact {
   padding: 2rem 2rem 4rem;
-  background: var(--color-fondo-claro);
+  background: var(--color-lila-claro);
 }
 
 .contact__titulo {
   margin-bottom: 3rem;
   font-size: 4rem;
   text-align: center;
-  color: var(--color-primario);
+  color: var(--color-texto-claro);
 }
 
 .contact__formulario {

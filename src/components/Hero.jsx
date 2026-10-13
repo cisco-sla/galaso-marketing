@@ -1,7 +1,8 @@
 import "./Hero.css";
 
-/* creamos la función Hero. Con un destructuring obtenemos las propiedades, y 
-se las pasamos a los componentes como props.*/
+/* creamos la función Hero. Con un destructuring obtenemos las propiedades,
+que están definidas en el App.jsx (las propiedades en este caso viajan de padre -App.jsx- al hijo - Hero.jsx)  
+*/
 
 function Hero({ titulo, destacado, descripcion, foto, altFoto }) {
   return (

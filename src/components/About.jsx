@@ -1,8 +1,9 @@
 import "./About.css";
 import imagenAbout from "../assets/fgalaso_about.webp";
 
-//Array de textos por fuera de la función. Si en el futuro se desea cambiar algo del copy se modifica el array sin tocar la logica.
-
+/*Array de textos por fuera de la función. Si en el futuro se desea 
+cambiar algo del copy se modifica el array sin tocar la lógica.
+*/
 const parrafos = [
   "Mi nombre es Francisco Javier Galaso, Licenciado en Comercialización de Salta Capital.",
   "Siempre me intrigó entender por qué algunas marcas consiguen destacarse frente a la competencia y permanecer en la memoria de las personas. Como no quería quedarme únicamente con la intuición, decidí formarme universitariamente y complementar mis estudios con distintos cursos.",
@@ -10,7 +11,9 @@ const parrafos = [
   "Hoy aprovecho esa combinación de formación y experiencia para ayudar a emprendedores, profesionales y empresas a mejorar su presencia y comunicarse mejor con sus clientes.",
 ];
 
-// aqui armo la función de la seccion "Sobre Mi". Hago un map y lo indexo para que sepa su posicion.
+/* aqui armo la función de la seccion "Sobre Mi". Hago un map y lo indexo para que
+la función reciba cada elemento y su posición.
+ */
 function About() {
   return (
     <section className="about" id="sobre-mi">

@@ -3,6 +3,9 @@ import PlanCard from "./PlanCard";
 import { planes, incluyeTodos } from "../data/planes";
 import fondoPlanes from "../assets/planes/planes2.webp";
 
+/*Función Plans. Con el map itero todo lo que hay en data/planes 
+y pasa cada objeto completo como props*/
+
 function Plans() {
   return (
     <section className="plans" id="planes">

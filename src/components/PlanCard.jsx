@@ -1,7 +1,14 @@
 import "./PlanCard.css";
 
+/*la funcion recibe 3 props. Y a su vez de "plan" toma las variables 
+para definir las caracterisiticas que van dentro de las tarjetas.
+Para ello uso la constante "caracteristicas" que arma una plantilla
+de texto (template literal). Y retorna un article con la estructura de 
+las tarjetas. La información la llena el Plans.jsx
+Obs: al Precio lo "anclo" con la sección contacto.    
+*/
+
 function PlanCard({ plan, incluye, fondo }) {
-  //la funcion recibe 3 props. De Plan sacamos las variables para definir las caracterisiticas.
   const caracteristicas = [
     `${plan.redes} redes sociales.`,
     `${plan.posteos} posteos.`,

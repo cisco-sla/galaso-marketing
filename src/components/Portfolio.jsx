@@ -3,6 +3,18 @@ import "./Portfolio.css";
 import ProjectCard from "./ProjectCard";
 import { categorias, proyectos } from "../data/proyectos";
 
+/* importamos useState para que guarde la informacion sobre el filtro 
+activo. La lógica es: Se setean 2 constantes. La primera con una tupla donde registra el estado, y aplica el cambio.
+se setea como default en "Todos". La otra variable anida funciones y agrega condicionales 
+en la constante "proyectosVisibles" haciendo un if/else en caso que detecte una 
+categoría filtrada. 
+En pantalla la funcion reorna título, el filtro por categorías (para ello 
+se usa un map y se anida una funcion arrow al botón. A los botones se 
+les asigna el evento onClick como disparador para setear la "categoriaActiva")
+Finalmente, segun que proyectos visibles queden se arma la ProjectCard pasando 
+las props.   
+*/
+
 function Portfolio() {
   const [categoriaActiva, setCategoriaActiva] = useState("Todos");
 

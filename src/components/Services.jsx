@@ -2,7 +2,8 @@ import "./Services.css";
 import ServiceCard from "./ServiceCard";
 import { servicios } from "../data/servicios";
 
-/* Función para traer los servicios desde servicios.js. Luego con el map le indicamos los datos para las service cardss.*/
+/* Función para traer los servicios desde servicios.js. 
+Luego con el map le indicamos los datos para las service cards.*/
 
 function Services() {
   return (
